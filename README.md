@@ -22,21 +22,17 @@ Pseudocode
     )
  // Difine weekweatherManager class to manage weekly weather
     class WeeklyWeatherManager {
-       private val weeklyWeather : MutableList<Weather> = mutableListOf()
-
-       // function to add weather data for a day
+   private val weeklyWeather : MutableList<Weather> = mutableListOf()
+// function to add weather data for a day
        fun addWeather(day : string< Temperature: Double, condition: string) {
        val weather = weather(day,temperature,condition)
-
-      weeklyWeather.add(add(weather)
-
+ weeklyWeather.add(add(weather)
       }
       //function to update weather data for a pecific day
       fun deleteweather (day : string){
       weeklyWeather.removeIF { it .day ==day }
       }
     }
-
     end
   
 
