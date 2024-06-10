@@ -12,6 +12,7 @@ keep users to stay informed about sudden changes in weather patterns.also weathe
 this app helps travelers plan their trips by providing weather forecasts for their destination cities.Farmers and agricultural businesses use weather apps to monitor weather condition that may affect crops.
 
 Pseudocode
+
  start 
  //Difine weather class to hold weather data for a day 
  class weather(
@@ -19,8 +20,7 @@ Pseudocode
     val temperature: Double
     val condition: string
     )
-
-    // Difine weekweatherManager class to manage weekly weather
+ // Difine weekweatherManager class to manage weekly weather
     class WeeklyWeatherManager {
        private val weeklyWeather : MutableList<Weather> = mutableListOf()
 
@@ -34,8 +34,7 @@ Pseudocode
       //function to update weather data for a pecific day
       fun deleteweather (day : string){
       weeklyWeather.removeIF { it .day ==day }
-
-       }
+      }
     }
 
     end
