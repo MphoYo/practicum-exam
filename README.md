@@ -16,8 +16,7 @@ Pseudocode
  start 
 
  //Difine weather class to hold weather data for a day 
- class weather(
-    val day String,
+    class weather(  val day String,
     val temperature: Double
     val condition: string
     )
